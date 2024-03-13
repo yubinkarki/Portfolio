@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Yubin | Portfolio | Home</title>
+    <meta name="theme-color" content="#111216" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Yubin Karki - Personal Portfolio Site" />
+    <script type="module" crossorigin src="/assets/main-a1a4e7f3.js"></script>
+    <link rel="stylesheet" href="/assets/index-dc7fded8.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <script>
+      (() => {
+        const redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+  </body>
+</html>
