@@ -1,4 +1,4 @@
-# [Personal Portfolio](https://yubinkarki.com.np)
+# [Personal Portfolio](https://yubinkarki.com.np) (Archived)
 
 ```
 Vite project with React.
@@ -17,3 +17,6 @@ Process to create new empty branch:
 - `git switch --orphan <new branch>`
 - `git commit --allow-empty -m "Initial commit on orphan branch"`
 - `git push -u origin <new branch>`
+
+## Note  
+> This repository is no longer is use as the deployment for the portfolio is being managed with Vercel via the private source code repo.
