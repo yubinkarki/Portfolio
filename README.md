@@ -19,4 +19,4 @@ Process to create new empty branch:
 - `git push -u origin <new branch>`
 
 ## Note  
-> This repository is no longer is use as the deployment for the portfolio is being managed with Vercel via the private source code repo.
+> This repository is no longer in use as the deployment for the portfolio is being managed by Vercel via the private source code repo.
